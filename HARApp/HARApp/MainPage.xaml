@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="HARApp.MainPage">
+
+    <StackLayout>
+        <Label Text="UCI dataframes"
+               FontSize="Large"
+                VerticalOptions="StartAndExpand"
+                HorizontalOptions="Center"/>
+
+
+        <Button Text="Std"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="StdButtonClicked"/>
+
+        <Button Text="Dws"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="DwsButtonClicked" />
+
+        <Button Text="Ly"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="LyButtonClicked" />
+
+        <Button Text="Wlk"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="WlkButtonClicked" />
+
+        <Button Text="Sit"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="SitButtonClicked" />
+
+        <Button Text="Ups"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    Clicked="UpsButtonClicked" />
+    </StackLayout>
+
+</ContentPage>
