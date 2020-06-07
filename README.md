@@ -1,5 +1,8 @@
 # HAR_Internship
 
+Run the files in the Python_Prediction folder, you need to jupyter notebook.
+First unzip data.zip in the Python_Prediction/datasets/UCI-HAR-Dataset folder.
+
 Installing jupyter notebook:
 
 	Open commandline in the Python_Prediction folder
