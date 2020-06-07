@@ -43,8 +43,6 @@ namespace HARApp.Droid
             //interpreter.Run(dataframe, outputs);
 
             var classificationResult = outputs.ToArray<float[]>();
-
-            var result = new List<Classification>();
         }
 
         private object GetDataframeAsByteBuffer(List<List<float>> dataframe)
